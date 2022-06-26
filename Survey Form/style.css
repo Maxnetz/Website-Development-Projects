@@ -1,0 +1,96 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --primary: hsla(348, 97%, 63%, 0.65);
+    --secondary: hsla(230, 96%, 63%, 0.65);
+
+}
+
+body{
+    padding-bottom: 0px;
+    background: url('Pictures/background.jpg'),
+                linear-gradient(135deg, var(--primary), var(--secondary));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.border{
+    border: 3px solid black;
+    margin:0 auto;
+    border-style: hidden;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+#description{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.wrapper{
+    width: 850px;
+    height: 1000px;
+    margin:0 auto;
+    
+    
+}
+
+#form{
+    border: 3px solid black;
+    margin:0 auto;
+    border-style: hidden;
+    background-color: #721805;
+    padding: 5px 40px 25px 40px;
+    font-size: 19px;
+    margin: 0 auto;
+    border-radius: 15px;
+    opacity: 0.95;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+#dropdown {
+    width: 101%;
+    height: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+#comment{
+    font-size: 16px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+}
+
+#btn_submit{
+    background-color:green;
+    border: none;
+    color: white;
+    width: 101%;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-content{
+    color: rgb(255, 255, 255);
+}
